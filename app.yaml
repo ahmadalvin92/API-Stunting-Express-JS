@@ -1,0 +1,8 @@
+runtime: nodejs20
+
+env_variables:
+  INSTANCE_CONNECTION_NAME: stuntingjs:asia-southeast2:stuntingjs
+  NODE_ENV: 'production'
+
+beta_settings:
+  cloud_sql_instances: stuntingjs:asia-southeast2:stuntingjs
